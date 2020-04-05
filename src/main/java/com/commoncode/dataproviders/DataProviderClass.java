@@ -8,7 +8,7 @@ import com.commoncode.utility.ExcelUtils;
 
 public class DataProviderClass {
 
-	public static final String TESTDATAEXCELFILE = "testData.xlsx";
+	public static final String TESTDATAEXCELFILE = System.getProperty("testDataExcelFile");
 
 	@DataProvider(name = "adminlogin")
 
