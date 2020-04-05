@@ -7,8 +7,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<jre.level>11</jre.level>
-		<jdk.level>11</jdk.level>
+		<jre.level>11.0.1</jre.level>
+		<jdk.level>11.0.1</jdk.level>
 	</properties>
 
 	<build>
