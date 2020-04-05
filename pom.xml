@@ -7,8 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<jre.level>11.0.1</jre.level>
-		<jdk.level>11.0.1</jdk.level>
+		     <jdk.version>11</jdk.version>
 	</properties>
 
 	<build>
@@ -18,8 +17,8 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>${jdk.level}</source>
-					<target>${jdk.level}</target>
+					<source>${jdk.version}</source>
+					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
 			<!-- Below plug-in is used to execute tests -->
