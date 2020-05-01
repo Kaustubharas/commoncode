@@ -1,10 +1,8 @@
 package com.commoncode.testCases;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import java.lang.reflect.Method;
 
-import org.testng.AssertJUnit;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.commoncode.dataproviders.DataProviderClass;
@@ -28,7 +26,7 @@ public class ALoginTest extends TestBase {
 
 			login.submitLoginExpectingFailure(un, pw);
 
-			AssertJUnit.assertEquals(login.invalidUsername(), expMessage);
+			Assert.assertEquals(login.invalidUsername(), expMessage);
 
 		} else if (testDesc.equals("valid")) {
 

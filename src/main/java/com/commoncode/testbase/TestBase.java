@@ -71,15 +71,10 @@ public class TestBase {
 
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
-		System.out.println("Site URL is:" + Constants.SITEURL);
-		try {
-			if (!Constants.SITEURL.isEmpty())
-				driver.get(Constants.SITEURL);
-		} catch (Exception e) {
+		//driver.get(Constants.SITEURL);
 
-			driver.get(properties.getProperty("url"));
+		//driver.get(properties.getProperty("url"));
 
-		}
 
 	}
 
